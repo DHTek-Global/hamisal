@@ -33,12 +33,14 @@ const Hero = () => {
                             Go Green. Stay Warm. Choose Hamisal.
                         </p>
 
-                        <Button
-                            className="px-8.5 mt-2 md:mt-5 md:py-2.5 md:px-8.5 text-sm py-1 z-10 text-[#FFD700] border-[#FFD700]"
-                            variant="outline"
-                        >
-                            Get in Touch
-                        </Button>
+                        <a href="/contact" className="">
+                            <Button
+                                className="px-8.5 mt-2 md:mt-5 md:py-2.5 md:px-8.5 text-sm py-1 z-10 text-[#FFD700] border-[#FFD700]"
+                                variant="outline"
+                            >
+                                Get in Touch
+                            </Button>
+                        </a>
                     </div>
                 </Container>
             </div>

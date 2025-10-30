@@ -14,7 +14,9 @@ export const Header = () => {
                 <Container className="flex items-center justify-between w-full ">
                     <div className={""}>
                         {/* Replace with your logo */}
-                        <img src="/images/logo.png" alt="Logo" />
+                        <a href="/" className="">
+                            <img src="/images/logo.png" alt="Logo" />
+                        </a>
                     </div>
 
                     {/* Hamburger menu for mobile */}
@@ -28,7 +30,10 @@ export const Header = () => {
                             "md:block"
                         )}
                     >
-                        <ul className=" absolute bg-white   right-0 left-0 top-19 md:relative md:top-0 md:left-0 md:flex items-center justify-center gap-10">
+                        <ul
+                            className=" absolute bg-white   right-0 left-0 top-19 md:relative md:top-0 md:left-0 md:flex items-center justify-center gap-10"
+                            onClick={() => setIsMenuOpen(false)}
+                        >
                             <li className=" hover:bg-black/70 hover:md:bg-transparent hover:text-white hover:md:text-[#8C7050] text-[#333333] px-5">
                                 <a href="/#about" className="py-4 block">
                                     About
@@ -42,6 +47,20 @@ export const Header = () => {
                             <li className=" hover:bg-black/70 hover:md:bg-transparent hover:text-white hover:md:text-[#8C7050] text-[#333333] px-5">
                                 <a href="#" className="py-4 block">
                                     Sustainability
+                                </a>
+                            </li>
+
+                            <li className="  hover:md:bg-transparent  text-[#333333] px-5">
+                                <a
+                                    href="/contact"
+                                    className="md:hidden block  py-4  "
+                                >
+                                    <Button
+                                        className={cn("px-10.5")}
+                                        variant="outline"
+                                    >
+                                        Get in Touch
+                                    </Button>
                                 </a>
                             </li>
                         </ul>

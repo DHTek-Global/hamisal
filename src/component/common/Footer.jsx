@@ -56,11 +56,13 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Logo + Socials + Email */}
                     <div className="flex flex-col ">
-                        <img
-                            src="/images/logo.png"
-                            alt="logo"
-                            className="w-23.5"
-                        />
+                        <a href="/" className="">
+                            <img
+                                src="/images/logo.png"
+                                alt="logo"
+                                className="w-23.5"
+                            />
+                        </a>
 
                         {/* Social Icons (mapped) */}
                         <div className="flex space-x-4 mt-5">
