@@ -28,23 +28,24 @@ const socials = [
 const phones = [
     {
         id: 1,
-        text: "+234 906 213 3781",
-        url: "tel:2349062133781",
+        text: "+234 906 2133 787",
+        url: "tel:+2349062133787",
     },
     {
         id: 2,
-        text: "+234 750 779 316",
-        url: "tel:234750779316",
+        text: "+44 750 1795 136",
+        url: "tel:+4475017951376",
     },
+
     {
         id: 3,
-        text: "+234 790 4627",
-        url: "tel:2347904627",
+        text: "+32479044627",
+        url: "tel:32479044627",
     },
     {
         id: 4,
-        text: "+234 802 025 257",
-        url: "tel:234802025257",
+        text: "+37068702557",
+        url: "tel:37068702557",
     },
 ];
 
@@ -119,9 +120,9 @@ export default function Footer() {
                         <p>
                             Km 15 Old Oyo-Iseyin Road,
                             <br />
-                            Oopeole Goat Farm Centre,
+                            Opposite Govt Farm Centre,
                             <br />
-                            Fasola Village, Oyo, Oyo State, Nigeria
+                            Fashola Village, Oyo, Oyo State, Nigeria
                         </p>
 
                         {/* Phone Links (mapped with tel:) */}
